@@ -56,6 +56,7 @@ body {
     nav li {
         list-style: none;
         margin-right: 51px;
+        hover: 
 
     }
 
@@ -63,7 +64,7 @@ body {
         text-decoration: none;
         color: #474747;
     }
-
+ 
     /* header related style */
     .header {
         background-color: #FFF8F3;
@@ -114,10 +115,21 @@ body {
     }
 
     /* main sectio style */
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }  
     /* about section style */
     .about {
         padding: 130px;
         border-radius: 10px;
         background: #FFF8F3;
         margin: 130px 0;
+    }
+    .about-info-container{
+        display:flex;
+        justify-content: space-around;
+    }
+    .about-info{
+        text-align: center;
     }
